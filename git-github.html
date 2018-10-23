@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-    /*
+        /*
         git:版本控制工具
             版本控制:（就是对代码版本的操作）  先把A存了一份。比如#1， B叫#2， 输入#2就到B
             A
@@ -65,23 +67,30 @@
 
     工作区到暂存区
     git add 文件的名字
+    多个文件操作 git add .
     
     暂存区到版本区
         git commit -m "注释"
            这里的注释主要是方便管理员查找操作
+    快速从工作区到版本区：
+    前提是文件是添加过的
+    git commit -a -m "004"
 
+    把版本文件传到远程仓库里
+    默认
+     git push origin master
     
     设置贡献者的信息
     git config --global user.name "用户名"
     git config --global user.email "邮箱"
 
     永久免密
+git config --global credential.helper store
+
     
 
     */
-
-   
-
     </script>
 </body>
+
 </html>
